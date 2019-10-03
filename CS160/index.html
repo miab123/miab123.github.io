@@ -20,7 +20,7 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">Mia-bar</a>
+      <a class="navbar-brand" href="#">Miabar</a>
       
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,17 +32,24 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="https://github.com/miab123/miab123.github.io">GitHub</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
+          <!-- Dropdown for Quicklinks -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quick Links</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="https://www.w3schools.com/">W3Schools</a>
+                <a class="dropdown-item" href="https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla Developer</a>
+                <a class="dropdown-item" href="https://github.com/peterdcasey">Prof. Github</a>
+          </li>
+          <!-- Dropdown for Menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="scratch.html">Scratch</a>
+              <a class="dropdown-item" href="#">Reading Q&A</a>
+              <a class="dropdown-item" href="#">Code</a>
+              <a class="dropdown-item" href="#">MISC Work</a>
             </div>
           </li>
         </ul>
@@ -58,38 +65,45 @@
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <div class="container">
+        <div class="container"> 
           <h1 class="display-3">Mia's Portfolio</h1>
           <p> This is an extensive and ongoing portfolio project for Mia Baker's work.</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+          <p><a class="btn btn-primary btn-lg" href="https://github.com/miab123/miab123.github.io" role="button">Mia's Github &raquo;</a></p>
         </div>
       </div>
 
       <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-          <div class="col-md-4">
+          <div class="col">
             <h2>Scratch Work</h2>
             <p>Click here to look at all of my Scratch work and other things around the MIT programming tool.</p>
             <p><a class="btn btn-secondary" href="scratch.html" role="button">To Scratch Work &raquo;</a></p>
           </div>
           
-          <div class="col-md-4">
+          <div class="col">
             <h2>Reading Q&A</h2>
             <p>Click here to find my answered questions on the books Dreaming in code and CODE</p>
             <p><a class="btn btn-secondary" href="#" role="button">To Reading Q&A's &raquo;</a></p>
           </div>
           
-          <div class="col-md-4">
-            <h2>MISC Work</h2>
-            <p>Click here to look at my misc work, this bar will be worked on in the future</p>
-            <p><a class="btn btn-secondary" href="#" role="button">To MISC Work &raquo;</a></p>
-          </div>
+          <div class="col">
+              <h2>Coding</h2>
+              <p>This is where you can find my coding projects</p>
+              <p><a class="btn btn-secondary" href="#" role="button">To Code &raquo;</a></p>
+            </div>
+
+            <div class="col">
+                <h2>MISC Work</h2>
+                <p>Click here to look at my misc work, this bar will be worked on in the future</p>
+                <p><a class="btn btn-secondary" href="#" role="button">To MISC Work &raquo;</a></p>
+              </div>
+
         </div>
 
         <hr>
-        
-        
+        <!-- /put second row here and make sure to style sheet from bootstrap -->
+        </div>
 
       </div> <!-- /container -->
       
